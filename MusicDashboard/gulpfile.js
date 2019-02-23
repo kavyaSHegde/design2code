@@ -12,3 +12,5 @@ gulp.task('default' , function(){
 gulp.task('watch',function(){
     gulp.watch('./assets/styles/*.scss', ['default']);
 })
+
+alert("Hello")
